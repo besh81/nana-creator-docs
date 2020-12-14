@@ -6,3 +6,4 @@ Nana Creator documentation
 
 ### Tutorials
 - [Basic tutorial](https://besh81.github.io/nana-creator-docs/Basic_Tutorial.html)
+- [Toolbar tutorial](https://besh81.github.io/nana-creator-docs/Toolbar_Tutorial.html)

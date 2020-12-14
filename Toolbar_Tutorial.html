@@ -1,0 +1,125 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <title>Nana Creator Toolbar Tutorial</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="stylesheet" href="css/styles/vs.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body class="">
+
+    <div id="content" class="mw-body" role="main">
+
+        <h1 id="firstHeading" class="firstHeading">Nana Creator Toolbar Tutorial <span>[<a href="files/toolbar.ncp">toolbar.ncp</a>]</span></h1>
+
+        <div id="bodyContent" class="mw-body-content">
+
+            <h2><span class="" id="">Introduction</span></h2>
+            <p>This tutorial will explain in detail how to easily add tools to a <i>toolbar</i> using Nana Creator.
+            </p>
+            <p>You should already know how to create a project, add controls, changing property and styles, etc... If you don't remember check the <a href="Basic_Tutorial.html">Basic Tutorial</a>.
+            </p>
+            <p>Let's start adding a <i>toolbar</i> to the widget and selecting it.
+            </p>
+            <p><a href="img/tbtut001.jpg" class="image"><img alt="" src="img/tbtut001.jpg" height="445"></a>
+            </p>
+
+            <h2><span class="" id="">Items editor panel</span></h2>
+
+            <p>When the <i>toolbar</i> is selected the <i>Items editor</i> panel becomes active.<br>
+                This is the control center for managing the <i>toolbar</i> and all those controls made up of items (<i>menu</i>, <i>listbox</i>, <i>combox</i>, ...).<br>
+                Using the <i>Items editor</i> panel we'll be able to add, remove and modify the tools of the toolbar.
+            </p>
+            <p><a href="img/tbtut008.jpg" class="image"><img alt="" src="img/tbtut008.jpg" height="64"></a>
+            </p>
+
+            <h2><span class="" id="">Adding simple button</span></h2>
+            <p>Using the <i>Add</i> dropdown button located in the <i>Items editor</i> panel left click on <i>button</i>.
+            </p>
+            <p><a href="img/tbtut002.jpg" class="image"><img alt="" src="img/tbtut002.jpg" height="380"></a>
+            </p>
+            <p>Change the value of <i>Text</i> (under the <i>Common</i> category) to "simple button".
+            </p>
+            <p>To select an image click on the button in the <i>Image</i> property.
+            </p>
+            <p><a href="img/tbtut003.jpg" class="image"><img alt="" src="img/tbtut003.jpg" height="136"></a>
+            </p>
+            <p>A select file dialog will open. In the dialog navigate to the icon folder inside nana installation folder (or in any directory you want) and select the <i>button.png</i> image (or any image you want).
+            </p>
+            <p><a href="img/tbtut004.jpg" class="image"><img alt="" src="img/tbtut004.jpg" height="380"></a>
+            </p>
+
+            <h2><span class="" id="">Adding separator</span></h2>
+            <p>Using the <i>Add</i> dropdown button left click on <i>separator</i>.
+            </p>
+
+            <h2><span class="" id="">Adding toggle button</span></h2>
+            <p>Using the <i>Add</i> dropdown button left click on <i>toggle</i>.
+            </p>
+            <p>Change the value of <i>Text</i> to "toggle A".
+            </p>
+            <p>Select <i>cut.png</i> as <i>Image</i>.
+            </p>
+            <p>Then check the <i>textout</i> property.
+            </p>
+            <p>In the same way add another <i>toggle button</i>, set <i>Text</i> to "toggle B", <i>copy.png</i> as <i>Image</i> and check <i>textout</i>.
+            </p>
+            <p><a href="img/tbtut005.jpg" class="image"><img alt="" src="img/tbtut005.jpg" height="380"></a>
+            </p>
+            <p>Now the two toggle buttons are independent and can be pushed or not regardless of each other.
+            </p>
+            
+            <div class="callout">
+                <h4><span class="" id="">Make the toggle buttons mutually exclusive</span></h4>
+                <p>Often we want the toggle buttons to be mutually exclusive or in other words that only one at a time can be in the pressed state.
+                </p>
+                <p>This is done simply by writing the same value in the <i>Group</i> property of each toggle button.
+                </p>
+                <p>Select the "toggle A" button and change the value of <i>Group</i> to "group1".
+                </p>
+                <p>Then select the "toggle B" button and change the value of <i>Group</i> to "group1".
+                </p>
+            </div>
+
+            <h2><span class="" id="">Adding go rigth</span></h2>
+            <p>Using the <i>Add</i> dropdown button left click on <i>go right</i>.
+            </p>
+            <p>All the buttons after <i>go right</i> will be placed right aligned.
+            </p>
+
+            <h2><span class="" id="">Adding dropdown button</span></h2>
+            <p>Using the <i>Add</i> dropdown button left click on <i>dropdown</i>.
+            </p>
+            <p>Change the value of <i>Text</i> to "dropdown" and select <i>combox.png</i> as <i>Image</i>.
+            </p>
+            <p><a href="img/tbtut006.jpg" class="image"><img alt="" src="img/tbtut006.jpg" height="64"></a>
+            </p>
+            <p>When a <i>dropdown button</i> is selected the <i>Add dropdown item</i> button located on the right becomes active.
+            </p>
+            <p>Click the <i>Add dropdown item</i> button to add an item.
+            </p>
+            <p>Change the value of <i>Text</i> to "item 1" and select <i>categorize.png</i> as <i>Image</i>.
+            </p>
+            <p>Click again the <i>Add dropdown item</i> button to add another item.
+            </p>
+            <p>Change the value of <i>Text</i> to "item 2" and select <i>checkbox.png</i> as <i>Image</i>.
+            </p>
+            <p>Now click on the dropdown button to shown the two items.
+            </p>
+            <p><a href="img/tbtut007.jpg" class="image"><img alt="" src="img/tbtut007.jpg" height="380"></a>
+            </p>
+
+            <br>
+            <p>See you with the next tutorial ... CIAO !!!<br>
+            </p>
+            
+        </div>
+    </div>
+</body>
+
+</html>

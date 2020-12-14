@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<nana-creator version="0.27.0">
+	<panel mainclass="true" filename="toolbar_tut" rel_path="true" work_dir="c:/cppprojects/nana-creator/wdir" type="panel" name="toolbar_editor" enabled="true" width="350" height="200" bgcolor="212,208,200" fgcolor="0,0,0" transparent="false" layout="1" margin="1,1,1,1" gap="0">
+		<field type="field" name="field1" weight="51" layout="1" margin="0" gap="0">
+			<label type="label" name="caption" enabled="true" bgcolor="120,155,155" fgcolor="255,255,255" f_size="9" f_weight="400" f_italic="false" f_underline="false" f_strike_out="false" weight="20" caption="Toolbar Tutorial" format="false" transparent="false" halign="1" valign="1" />
+			<toolbar type="toolbar" name="toolbar" enabled="true" bgcolor="212,208,200" fgcolor="0,0,0" f_size="9" f_weight="400" f_italic="false" f_underline="false" f_strike_out="false" weight="31" buttons="(Collection)" tools_height="21">
+				<item type="button" key="n1" owner="" text="simple button" image="C:\cppprojects\nana-creator\wdir\icons\button.png" enable="true" textout="false" />
+				<item type="separator" key="n2" owner="" />
+				<item type="toggle" key="n3" owner="" text="toggle A" image="C:\cppprojects\nana-creator\wdir\icons\cut.png" enable="true" textout="true" toggle_pushed="false" toggle_group="" />
+				<item type="toggle" key="n4" owner="" text="toggle B" image="C:\cppprojects\nana-creator\wdir\icons\copy.png" enable="true" textout="true" toggle_pushed="false" toggle_group="" />
+				<item type="go_right" key="n5" owner="" />
+				<item type="dropdown" key="n6" owner="" text="dropdown" image="C:\cppprojects\nana-creator\wdir\icons\combox.png" enable="true" textout="false" />
+				<item type="dropdown-item" key="n7" owner="n6" text="item 1" image="C:\cppprojects\nana-creator\wdir\icons\categorize.png" enable="true" />
+				<item type="dropdown-item" key="n8" owner="n6" text="item 2" image="C:\cppprojects\nana-creator\wdir\icons\checkbox.png" enable="true" />
+			</toolbar>
+		</field>
+	</panel>
+</nana-creator>
